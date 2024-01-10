@@ -1,0 +1,98 @@
+/*the same with menu.css format but it horizontal*/
+a,
+.menu1,
+.item1,
+.btn1,
+.sbtn1,
+.smenu1 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.main1 div {
+  margin: 0;
+}
+
+.main1 {
+  display: block;
+}
+
+.menu1 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  order: 1;
+  overflow: inherit;
+}
+
+
+.item1 {
+  border-top: 1px solid #000000;
+  overflow: hidden;
+  width: 100%;
+}
+
+.btn1 {
+  display: block;
+  padding: 16px 20px;
+  background: #3a7c6d;
+  color: white;
+  position: relative;
+}
+
+.btn1 i {
+  margin-right: 10px;
+}
+
+.smenu1 {
+  background: #2c6276;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  max-height: 0;
+}
+
+.smenu1 a {
+  display: block;
+  padding: 16px 26px;
+  color: white;
+  font-size: 14px;
+  margin: 4px 0;
+  position: relative;
+}
+
+.smenu1 a:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background: #3498db;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.smenu1 a:hover:before {
+  opacity: 1;
+}
+
+.item1:hover .smenu1 {
+  max-height: 10em;
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .btn1,
+  .sbtn1 {
+    font-size: 12px;
+  }
+}

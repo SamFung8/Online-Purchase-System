@@ -1,0 +1,98 @@
+/*the same with menu.css format but it horizontal*/
+a,
+.menu,
+.item,
+.btn,
+.sbtn,
+.smenu {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.main div {
+  margin: 0;
+}
+
+.main {
+  display: block;
+}
+
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  order: 1;
+  overflow: inherit;
+}
+
+
+.item {
+  border-top: 1px solid #000000;
+  overflow: hidden;
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  padding: 16px 20px;
+  background: #3a7c6d;
+  color: white;
+  position: relative;
+}
+
+.btn i {
+  margin-right: 10px;
+}
+
+.smenu {
+  background: #2c6276;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  max-height: 0;
+}
+
+.smenu a {
+  display: block;
+  padding: 16px 26px;
+  color: white;
+  font-size: 14px;
+  margin: 4px 0;
+  position: relative;
+}
+
+.smenu a:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background: #3498db;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.smenu a:hover:before {
+  opacity: 1;
+}
+
+.item:hover .smenu {
+  max-height: 10em;
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .btn,
+  .sbtn {
+    font-size: 12px;
+  }
+}

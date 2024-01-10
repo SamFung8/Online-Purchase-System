@@ -1,0 +1,173 @@
+::placeholder {
+  color: black;
+}
+
+
+/*
+.goodsInfo{
+  margin-bottom: 20px;
+}
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the buttons */
+.btn_LG {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn_LG:hover {
+  background-color: #ddd;
+}
+
+.btn_LG.active {
+  background-color: #666;
+  color: white;
+}
+
+/*title*/
+
+#title {
+  border: 1px solid;
+  background: #060c21;
+  position: relative;
+  text-align: center;
+  width: 90%;
+  order: 2;
+  border-radius: 100px;
+  margin: auto;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 40px;
+  padding: 10px;
+}
+
+
+#title:before {
+  content: '';
+  position: absolute;
+  background: #fff;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+}
+
+#title:after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  filter: blur(40px);
+  z-index: -2;
+}
+
+#title:before,
+#title:after {
+  background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
+  border-radius: 100px;
+
+}
+
+
+
+
+#LG_Container {
+  border: 1px solid;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 15px;
+}
+
+#Goods_Name_Text {
+  font-size: 25px;
+}
+
+
+#urf {
+  text-align: center;
+}
+
+
+/*btn*/
+
+
+
+.submit,
+.btn_cancel,
+#d_add,
+#add01 {
+  display: none;
+}
+
+.submit,
+.edit,
+.btn_cancel,
+.delect,
+.add_save,
+.add_cancel {
+  background: none;
+  border: 3px solid;
+  color: lightskyblue;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add_save,
+.add_cancel {
+  color: fuchsia
+}
+
+/*format the button collor*/
+.submit:hover,
+.edit:hover,
+.btn_cancel:hover,
+.delect:hover,
+.add_save:hover,
+.add_cancel:hover {
+  color: red;
+}
+
+.delect {
+  color: darkorchid;
+}
+
+.submit,
+.edit {
+  color: blue;
+}
+
+.btn_cancel {
+  color: orange;
+}
+
+
+
+

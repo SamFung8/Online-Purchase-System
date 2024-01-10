@@ -1,0 +1,42 @@
+/*format the button*/
+#submit,
+#clearData,
+#showPw,
+#edit,
+#cancel {
+  background: none;
+  border: 3px solid;
+  color: lightskyblue;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*format the Clear Data button's collor*/
+#clearData {
+  color: orange;
+}
+
+/*format the Show Password button's collor*/
+#showPw {
+  color: blue;
+}
+
+/*format the button collor*/
+#clearData:hover,
+#showPw:hover,
+#submit:hover,
+#edit:hover,
+#cancel:hover {
+  color: red;
+}
+
+
+#edit {
+  color: blue;
+}
+
+#cancel {
+  color: orange;
+}

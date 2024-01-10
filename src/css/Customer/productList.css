@@ -1,0 +1,103 @@
+#productList {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+#productList thead tr {
+  text-align: center;
+  font-size: 20px;
+  border: 3px #0089de groove;
+}
+
+#productList tbody td {
+  border-bottom: 2px solid #8ebf42;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#orderBorder {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.makeOrderList {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.makeOrderList thead th {
+  text-align: center;
+  font-size: 20px;
+  border: 3px #00de09 groove;
+}
+
+.makeOrderList tbody td {
+  border-bottom: 2px solid #7008ea;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#makeOrderTotalPrice {
+  color: #e80024;
+  font-size: 20px;
+  float: left;
+}
+
+#selectShop {
+  border: 2px solid #8ebf42;
+  padding: 10px;
+  border-radius: 50px 20px;
+  margin: 30px;
+}
+
+.customSelectLocation {
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+
+.customSelectLocation option {
+  font-size: 20px;
+}
+
+#btMakeOrderFinish {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #e60035;
+  padding: 10px;
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+#btBackToHome {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #e60035;
+  padding: 10px;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,42 @@
+#Change_Stock_Price,
+#Change_Stock_Quantity,
+#submit {
+  display: none;
+}
+
+#submit,
+#showPw,
+#edit,
+#btn_cancel {
+  background: none;
+  border: 3px solid;
+  color: lightskyblue;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+/*format the Show Password button's collor*/
+#showPw {
+  color: blue;
+}
+
+/*format the button collor*/
+#showPw:hover,
+#submit:hover,
+#edit:hover,
+#btn_cancel:hover {
+  color: red;
+}
+
+
+#edit {
+  color: blue;
+}
+
+#btn_cancel {
+  color: orange;
+}

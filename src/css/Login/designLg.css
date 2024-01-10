@@ -1,0 +1,102 @@
+/*title*/
+
+#title {
+  border: 1px solid;
+  background: #060c21;
+  position: relative;
+  text-align: center;
+  width: 90%;
+  order: 2;
+  border-radius: 100px;
+  margin: auto;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 40px;
+  padding: 10px;
+}
+
+
+#title:before {
+  content: '';
+  position: absolute;
+  background: #fff;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+}
+
+#title:after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  filter: blur(40px);
+  z-index: -2;
+}
+
+#title:before,
+#title:after {
+  background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
+  border-radius: 100px;
+
+}
+
+label {
+  font: 24px/36px sans-serif;
+}
+
+
+#box {
+  border: none;
+  padding: 5px;
+  font: 24px/36px sans-serif;
+  width: 98%;
+  height: 300px;
+  overflow: auto;
+}
+
+
+#flex-container,
+#loginForm {
+  border: 1px solid ;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 15px;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 50px;
+}
+
+#loginForm {
+    order: 1;
+    height: auto;
+    width: 100%;
+}
+
+#loginForm_type {
+    text-align: center;
+}
+
+.mustInPut {
+  color: red;
+}
+
+/*format the notes to user*/
+#notes {
+  background-color: red;
+  display: none;
+}
+
+/*format the notes to user*/
+#message {
+  background-color: red;
+}
